@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/gocover/pkg/annotation"
-	"github.com/Azure/gocover/pkg/dbclient"
-	"github.com/Azure/gocover/pkg/report"
+	"github.com/golibali/gocover/pkg/annotation"
+	"github.com/golibali/gocover/pkg/dbclient"
+	"github.com/golibali/gocover/pkg/report"
 	"github.com/bmatcuk/doublestar/v4"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/mod/modfile"

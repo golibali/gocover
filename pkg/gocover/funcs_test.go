@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Azure/gocover/pkg/dbclient"
-	"github.com/Azure/gocover/pkg/report"
+	"github.com/golibali/gocover/pkg/dbclient"
+	"github.com/golibali/gocover/pkg/report"
 	"github.com/sirupsen/logrus"
 )
 

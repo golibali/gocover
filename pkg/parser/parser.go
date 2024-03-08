@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Azure/gocover/pkg/annotation"
-	"github.com/Azure/gocover/pkg/gittool"
+	"github.com/golibali/gocover/pkg/annotation"
+	"github.com/golibali/gocover/pkg/gittool"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/tools/cover"
 )
