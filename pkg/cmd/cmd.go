@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Azure/gocover/pkg/dbclient"
-	"github.com/Azure/gocover/pkg/gocover"
+	"github.com/golibali/gocover/pkg/dbclient"
+	"github.com/golibali/gocover/pkg/gocover"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

@@ -1,10 +1,11 @@
-module github.com/Azure/gocover
+module github.com/golibali/gocover
 
 go 1.20
 
 require (
 	github.com/Azure/azure-kusto-go v0.8.0
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.11
+	github.com/Azure/gocover v1.0.6
 	github.com/alecthomas/chroma/v2 v2.3.0
 	github.com/bmatcuk/doublestar/v4 v4.2.0
 	github.com/go-git/go-git/v5 v5.4.2

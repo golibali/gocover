@@ -100,7 +100,7 @@ func (md *MDGen) GenerateReport(statistics *Statistics) error {
 		report = append(report, "\n</details>\n")
 	}
 
-	reportFile := filepath.Join(md.outputPath, finalName(md.reportName))
+	reportFile := filepath.Join(md.outputPath, md.reportName, ".md")
 	f, err := os.Create(reportFile)
 	if err != nil {
 		return fmt.Errorf("create report file: %w", err)
